@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "title": "Hello World 按钮",
+      "desc": "点击我弹窗 hello～（改这个 JSON 随时更新内容）",
+      "type": "button",
+      "extra": "hello"
+    }
+  ]
+}
