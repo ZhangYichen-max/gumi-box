@@ -1,5 +1,6 @@
 {
-  "version": 3,
+  "version": 4,
+  "header": { "visible": false },
   "items": [
     {
       "title": "Hello World",
