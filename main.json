@@ -1,5 +1,8 @@
 {
-  "version": 5,
+  "version": 6,
+  "minVersion": "0.9.0",
+  "upgradeUrl": "https://cdn.jsdelivr.net/gh/ZhangYichen-max/gumi-box@main/apk/GUMIBox-latest.apk",
+  "upgradeMessage": "当前版本已停止支持，请升级到最新客户端",
   "screen": { "background": "#F5F7F6" },
   "widgets": [
     {
