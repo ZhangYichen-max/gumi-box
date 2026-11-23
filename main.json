@@ -1,11 +1,18 @@
 {
-  "version": 4,
-  "header": { "visible": false },
-  "items": [
+  "version": 5,
+  "screen": { "background": "#F5F7F6" },
+  "widgets": [
     {
-      "title": "Hello World",
       "type": "button",
-      "extra": "hello"
+      "id": "btn_hello",
+      "text": "Hello World",
+      "x": 25, "y": 45, "w": 50, "h": 12,
+      "textSize": 16,
+      "textColor": "#FFFFFF",
+      "bg": "#38B48B",
+      "radius": 12,
+      "action": "alert",
+      "message": "hello"
     }
   ]
 }
