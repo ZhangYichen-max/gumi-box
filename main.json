@@ -1,9 +1,27 @@
 {
-  "version": 1,
+  "version": 2,
+  "theme": {
+    "primary": "#38B48B",
+    "primaryLight": "#A8E6CF",
+    "background": "#F5F7F6",
+    "textMain": "#1F2A28",
+    "textDim": "#6B7B77",
+    "badgeButton": "#E8A33D",
+    "badgeSong": "#38B48B",
+    "badgeNews": "#5C7AEA"
+  },
+  "header": {
+    "title": "GUMI Box",
+    "subtitle": "🌙 全部 UI 由 gumi-box 仓库下发"
+  },
+  "status": {
+    "loading": "正在联网拉取 UI…",
+    "error": "拉取失败，请检查网络连接"
+  },
   "items": [
     {
       "title": "Hello World 按钮",
-      "desc": "点击我弹窗 hello～（改这个 JSON 随时更新内容）",
+      "desc": "点击我弹窗 hello～（按钮样式与文字全部来自本仓库）",
       "type": "button",
       "extra": "hello"
     }
