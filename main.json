@@ -1,46 +1,39 @@
 {
-  "version": 7,
-  "minVersion": "0.9.3",
+  "version": 8,
+  "minVersion": "0.9.4",
   "upgradeUrl": "https://cdn.jsdelivr.net/gh/ZhangYichen-max/gumi-box@main/apk/GUMIBox-latest.apk",
   "entry": "home",
-  "screen": { "background": "#F5F7F6" },
   "pages": {
     "home": {
       "screen": { "background": "#F5F7F6" },
       "widgets": [
-        {
-          "type": "text", "text": "🌙 GUMI Box",
-          "x": 20, "y": 30, "w": 60, "h": 10,
-          "textSize": 22, "textColor": "#38B48B", "bold": true
-        },
-        {
-          "type": "button", "text": "进入第二页 →",
-          "x": 25, "y": 45, "w": 50, "h": 12,
+        { "type": "image", "id": "banner",
+          "src": "https://zhangyichen.asia/gumi.jpg",
+          "x": 25, "y": 8, "w": 50, "h": 28 },
+        { "type": "textfield", "id": "pw",
+          "placeholder": "输入暗号试试（gumi）", "password": false,
+          "x": 10, "y": 40, "w": 80, "h": 9, "textSize": 16 },
+        { "type": "button", "text": "🔐 验证",
+          "x": 25, "y": 52, "w": 50, "h": 12,
           "textSize": 16, "textColor": "#FFFFFF", "bg": "#38B48B", "radius": 12,
-          "action": "navigate", "target": "second"
-        },
-        {
-          "type": "button", "text": "弹个 hello",
-          "x": 25, "y": 60, "w": 50, "h": 12,
-          "textSize": 16, "textColor": "#FFFFFF", "bg": "#5C7AEA", "radius": 12,
-          "action": "alert", "message": "hello"
-        }
+          "action": "verify", "inputId": "pw", "expect": "gumi",
+          "successTarget": "secret", "failMessage": "❌ 暗号不对哦" },
+        { "type": "button", "text": "直接跳转（免验证）→",
+          "x": 25, "y": 67, "w": 50, "h": 12,
+          "textSize": 14, "textColor": "#FFFFFF", "bg": "#5C7AEA", "radius": 12,
+          "action": "navigate", "target": "secret" }
       ]
     },
-    "second": {
+    "secret": {
       "screen": { "background": "#FFF8E7" },
       "widgets": [
-        {
-          "type": "text", "text": "这里是第二页 ✨",
-          "x": 20, "y": 35, "w": 60, "h": 10,
-          "textSize": 20, "textColor": "#E8A33D", "bold": true
-        },
-        {
-          "type": "button", "text": "← 返回",
-          "x": 25, "y": 50, "w": 50, "h": 12,
+        { "type": "text", "text": "🎉 验证通过，欢迎回来",
+          "x": 15, "y": 40, "w": 70, "h": 10,
+          "textSize": 20, "textColor": "#E8A33D", "bold": true },
+        { "type": "button", "text": "← 返回",
+          "x": 25, "y": 55, "w": 50, "h": 12,
           "textSize": 16, "textColor": "#FFFFFF", "bg": "#E8A33D", "radius": 12,
-          "action": "back"
-        }
+          "action": "back" }
       ]
     }
   }
