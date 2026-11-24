@@ -1,21 +1,47 @@
 {
-  "version": 6,
-  "minVersion": "0.9.0",
+  "version": 7,
+  "minVersion": "0.9.3",
   "upgradeUrl": "https://cdn.jsdelivr.net/gh/ZhangYichen-max/gumi-box@main/apk/GUMIBox-latest.apk",
-  "upgradeMessage": "当前版本已停止支持，请升级到最新客户端",
+  "entry": "home",
   "screen": { "background": "#F5F7F6" },
-  "widgets": [
-    {
-      "type": "button",
-      "id": "btn_hello",
-      "text": "Hello World",
-      "x": 25, "y": 45, "w": 50, "h": 12,
-      "textSize": 16,
-      "textColor": "#FFFFFF",
-      "bg": "#38B48B",
-      "radius": 12,
-      "action": "alert",
-      "message": "hello"
+  "pages": {
+    "home": {
+      "screen": { "background": "#F5F7F6" },
+      "widgets": [
+        {
+          "type": "text", "text": "🌙 GUMI Box",
+          "x": 20, "y": 30, "w": 60, "h": 10,
+          "textSize": 22, "textColor": "#38B48B", "bold": true
+        },
+        {
+          "type": "button", "text": "进入第二页 →",
+          "x": 25, "y": 45, "w": 50, "h": 12,
+          "textSize": 16, "textColor": "#FFFFFF", "bg": "#38B48B", "radius": 12,
+          "action": "navigate", "target": "second"
+        },
+        {
+          "type": "button", "text": "弹个 hello",
+          "x": 25, "y": 60, "w": 50, "h": 12,
+          "textSize": 16, "textColor": "#FFFFFF", "bg": "#5C7AEA", "radius": 12,
+          "action": "alert", "message": "hello"
+        }
+      ]
+    },
+    "second": {
+      "screen": { "background": "#FFF8E7" },
+      "widgets": [
+        {
+          "type": "text", "text": "这里是第二页 ✨",
+          "x": 20, "y": 35, "w": 60, "h": 10,
+          "textSize": 20, "textColor": "#E8A33D", "bold": true
+        },
+        {
+          "type": "button", "text": "← 返回",
+          "x": 25, "y": 50, "w": 50, "h": 12,
+          "textSize": 16, "textColor": "#FFFFFF", "bg": "#E8A33D", "radius": 12,
+          "action": "back"
+        }
+      ]
     }
-  ]
+  }
 }
