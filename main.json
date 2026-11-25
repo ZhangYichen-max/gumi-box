@@ -1,8 +1,9 @@
 {
-  "version": 11,
-  "minVersion": "0.9.6",
+  "version": 12,
+  "minVersion": "0.9.7",
   "upgradeUrl": "https://raw.githubusercontent.com/ZhangYichen-max/gumi-box/main/apk/GUMIBox-latest.apk",
   "entry": "home",
+  "note": "v12: 引擎全拦截钩子版（onAction/verify/onPageChange/buildWidget）",
   "plugins": [
     {
       "id": "sample",
