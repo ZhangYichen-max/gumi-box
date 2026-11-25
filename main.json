@@ -1,23 +1,44 @@
 {
-  "version": 10,
-  "minVersion": "0.9.4",
+  "version": 11,
+  "minVersion": "0.9.6",
   "upgradeUrl": "https://raw.githubusercontent.com/ZhangYichen-max/gumi-box/main/apk/GUMIBox-latest.apk",
   "entry": "home",
+  "plugins": [
+    {
+      "id": "sample",
+      "url": "https://cdn.jsdelivr.net/gh/ZhangYichen-max/gumi-box@main/plugins/sample.dex",
+      "className": "box.zhangyichen.megpoid.plugin.SamplePlugin"
+    }
+  ],
   "pages": {
     "home": {
       "screen": { "background": "#F5F7F6" },
       "widgets": [
         { "type": "text", "text": "🌙 GUMI Box",
-          "x": 20, "y": 10, "w": 60, "h": 12,
+          "x": 20, "y": 6, "w": 60, "h": 11,
           "textSize": 24, "textColor": "#38B48B", "bold": true },
         { "type": "button", "text": "🎤 GUMI 介绍",
-          "x": 20, "y": 32, "w": 60, "h": 14,
+          "x": 20, "y": 20, "w": 60, "h": 13,
           "textSize": 18, "textColor": "#FFFFFF", "bg": "#38B48B", "radius": 14,
           "action": "navigate", "target": "gumi" },
         { "type": "button", "text": "💿 我的作品",
-          "x": 20, "y": 52, "w": 60, "h": 14,
+          "x": 20, "y": 36, "w": 60, "h": 13,
           "textSize": 18, "textColor": "#FFFFFF", "bg": "#5C7AEA", "radius": 14,
-          "action": "navigate", "target": "works" }
+          "action": "navigate", "target": "works" },
+        { "type": "textfield", "id": "pw",
+          "placeholder": "插件实验室：输入 gumi/GUMI",
+          "x": 10, "y": 55, "w": 80, "h": 9, "textSize": 15 },
+        { "type": "button", "text": "🔐 验证",
+          "x": 10, "y": 66, "w": 38, "h": 12,
+          "textSize": 15, "textColor": "#FFFFFF", "bg": "#38B48B", "radius": 12,
+          "action": "verify", "inputId": "pw", "expect": "gumi",
+          "successTarget": "secret", "failMessage": "❌ 暗号不对" },
+        { "type": "button", "text": "⬇️ 下载",
+          "x": 52, "y": 66, "w": 38, "h": 12,
+          "textSize": 15, "textColor": "#FFFFFF", "bg": "#E8A33D", "radius": 12,
+          "action": "download",
+          "url": "https://zhangyichen.asia/gumi.jpg",
+          "saveName": "gumi.jpg" }
       ]
     },
     "gumi": {
@@ -29,11 +50,11 @@
         { "type": "text", "text": "GUMI / Megpoid",
           "x": 20, "y": 38, "w": 60, "h": 10,
           "textSize": 20, "textColor": "#38B48B", "bold": true },
-        { "type": "text", "text": "INTERNET 社推出的 VOCALOID 声库，\n中嗓音·未来感十足的代表歌姬。\n代表曲：《千本樱》翻唱圈、\n《からくりピエロ》《天ノ弱》等。\n本机主界面配色即 GUMI 绿 🌙",
-          "x": 8, "y": 50, "w": 84, "h": 34,
+        { "type": "text", "text": "INTERNET 社推出的 VOCALOID 声库，\n中嗓音·未来感十足的代表歌姬。\n本机主界面配色即 GUMI 绿 🌙",
+          "x": 8, "y": 50, "w": 84, "h": 26,
           "textSize": 15, "textColor": "#444444" },
         { "type": "button", "text": "← 返回主页",
-          "x": 20, "y": 86, "w": 60, "h": 11,
+          "x": 20, "y": 82, "w": 60, "h": 11,
           "textSize": 16, "textColor": "#FFFFFF", "bg": "#38B48B", "radius": 12,
           "action": "back" }
       ]
@@ -56,12 +77,21 @@
           "x": 6, "y": 58, "w": 88, "h": 14,
           "textSize": 15, "textColor": "#E8A33D", "bold": true,
           "bg": "#FDF6E9", "radius": 10 },
-        { "type": "text", "text": "P 主口味：minato / kemu / 666",
-          "x": 10, "y": 75, "w": 80, "h": 8,
-          "textSize": 13, "textColor": "#888888" },
         { "type": "button", "text": "← 返回主页",
-          "x": 20, "y": 86, "w": 60, "h": 11,
+          "x": 20, "y": 82, "w": 60, "h": 11,
           "textSize": 16, "textColor": "#FFFFFF", "bg": "#5C7AEA", "radius": 12,
+          "action": "back" }
+      ]
+    },
+    "secret": {
+      "screen": { "background": "#FFF8E7" },
+      "widgets": [
+        { "type": "text", "text": "🎉 验证通过，欢迎回来\n（试试输入大写 GUMI 也能过——这是插件的功劳）",
+          "x": 5, "y": 38, "w": 90, "h": 16,
+          "textSize": 17, "textColor": "#E8A33D", "bold": true },
+        { "type": "button", "text": "← 返回",
+          "x": 20, "y": 60, "w": 60, "h": 12,
+          "textSize": 16, "textColor": "#FFFFFF", "bg": "#E8A33D", "radius": 12,
           "action": "back" }
       ]
     }
