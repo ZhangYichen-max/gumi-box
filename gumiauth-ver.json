@@ -1,6 +1,6 @@
 {
-  "versionCode": 20,
-  "versionName": "1.4.5",
+  "versionCode": 21,
+  "versionName": "1.4.6",
   "apk": "GumiAuth.apk",
-  "changelog": "修复点击授权记录无法退出 Gumi Store / Gumi Midi（注销指令改发各自专属 action）；全新图标。"
+  "changelog": "图标改回旧版。"
 }
