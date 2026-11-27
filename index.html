@@ -54,6 +54,10 @@
     color:#fff; transition:filter .18s;
   }
   .dl:hover{filter:brightness(1.15)}
+  .dl.busy{opacity:.55;pointer-events:none}
+  .alt{display:flex;gap:6px;justify-content:center;margin-top:8px;flex-wrap:wrap}
+  .alt a{font-size:11.5px;color:var(--muted);text-decoration:none;padding:3px 8px;border:1px solid #2a2a3a;border-radius:8px}
+  .alt a:hover{color:#a58bff;border-color:#a58bff}
   footer{margin-top:44px;color:var(--muted);font-size:13px;text-align:center;line-height:2}
   footer a{color:#a58bff;text-decoration:none}
   @media(max-width:560px){body{padding:32px 16px}.grid{gap:16px}}
@@ -74,7 +78,8 @@
         <div><div class="appname">MetroPlayer</div><div class="ver">v1.3.3 · 音乐播放器</div></div>
       </div>
       <div class="desc">本地音乐播放器，支持 GumiAuth 账号登录与自动更新。</div>
-      <a class="dl" href="MetroPlayer-1.3.3.apk">下载 APK</a>
+      <a class="dl" data-apk="MetroPlayer-1.3.3.apk" href="MetroPlayer-1.3.3.apk">下载 APK</a>
+      <div class="alt"><a href="https://cdn.jsdelivr.net/gh/ZhangYichen-max/gumi-box@main/MetroPlayer-1.3.3.apk">CDN直链</a><a href="https://ghproxy.cn/https://raw.githubusercontent.com/ZhangYichen-max/gumi-box/main/MetroPlayer-1.3.3.apk">代理直链</a><a href="MetroPlayer-1.3.3.apk">源站直链</a></div>
     </div>
 
     <div class="card" style="--c1:#5a6af0;--c2:#2d1a8f">
@@ -83,7 +88,8 @@
         <div><div class="appname">GumiAuth</div><div class="ver">v1.4.6 · 账号授权中心</div></div>
       </div>
       <div class="desc">统一账号体系：管理全部 App 的登录与授权记录，一键解除授权。</div>
-      <a class="dl" href="GumiAuth.apk">下载 APK</a>
+      <a class="dl" data-apk="GumiAuth.apk" href="GumiAuth.apk">下载 APK</a>
+      <div class="alt"><a href="https://cdn.jsdelivr.net/gh/ZhangYichen-max/gumi-box@main/GumiAuth.apk">CDN直链</a><a href="https://ghproxy.cn/https://raw.githubusercontent.com/ZhangYichen-max/gumi-box/main/GumiAuth.apk">代理直链</a><a href="GumiAuth.apk">源站直链</a></div>
     </div>
 
     <div class="card" style="--c1:#fa4b6e;--c2:#961a5a">
@@ -92,7 +98,8 @@
         <div><div class="appname">Gumi Store</div><div class="ver">v1.1.4 · 应用商店</div></div>
       </div>
       <div class="desc">下载全部自家 App 并检查更新（需登录 GumiAuth 账号）。</div>
-      <a class="dl" href="GumiStore-1.1.4.apk">下载 APK</a>
+      <a class="dl" data-apk="GumiStore-1.1.4.apk" href="GumiStore-1.1.4.apk">下载 APK</a>
+      <div class="alt"><a href="https://cdn.jsdelivr.net/gh/ZhangYichen-max/gumi-box@main/GumiStore-1.1.4.apk">CDN直链</a><a href="https://ghproxy.cn/https://raw.githubusercontent.com/ZhangYichen-max/gumi-box/main/GumiStore-1.1.4.apk">代理直链</a><a href="GumiStore-1.1.4.apk">源站直链</a></div>
     </div>
     <div class="card" style="--c1:#466ee0;--c2:#1f2a8c">
       <div class="app">
@@ -100,7 +107,8 @@
         <div><div class="appname">Gumi音乐</div><div class="ver">v1.0.3 · 在线音乐</div></div>
       </div>
       <div class="desc">在线音乐（强制登录）：需 GumiAuth 账号才能进入。</div>
-      <a class="dl" href="GumiMusic-1.0.3.apk">下载 APK</a>
+      <a class="dl" data-apk="GumiMusic-1.0.3.apk" href="GumiMusic-1.0.3.apk">下载 APK</a>
+      <div class="alt"><a href="https://cdn.jsdelivr.net/gh/ZhangYichen-max/gumi-box@main/GumiMusic-1.0.3.apk">CDN直链</a><a href="https://ghproxy.cn/https://raw.githubusercontent.com/ZhangYichen-max/gumi-box/main/GumiMusic-1.0.3.apk">代理直链</a><a href="GumiMusic-1.0.3.apk">源站直链</a></div>
     </div>
     <div class="card" style="--c1:#2840b8;--c2:#101448">
       <div class="app">
@@ -108,7 +116,8 @@
         <div><div class="appname">Gumi Benchmark</div><div class="ver">v1.1.1 · 性能测评</div></div>
       </div>
       <div class="desc">CPU 性能测评（强制登录）：整数 / 浮点 / 内存 / 多线程综合评分。</div>
-      <a class="dl" href="GumiBenchmark-1.1.1.apk">下载 APK</a>
+      <a class="dl" data-apk="GumiBenchmark-1.1.1.apk" href="GumiBenchmark-1.1.1.apk">下载 APK</a>
+      <div class="alt"><a href="https://cdn.jsdelivr.net/gh/ZhangYichen-max/gumi-box@main/GumiBenchmark-1.1.1.apk">CDN直链</a><a href="https://ghproxy.cn/https://raw.githubusercontent.com/ZhangYichen-max/gumi-box/main/GumiBenchmark-1.1.1.apk">代理直链</a><a href="GumiBenchmark-1.1.1.apk">源站直链</a></div>
     </div>
   </div>
 
@@ -116,5 +125,62 @@
      <div>© 2026 ZhangYichen · 张轶尘</div>
   </footer>
 </div>
+
+<script>
+// 多镜像接力下载：jsdelivr → 源站 → fastly → testingcf → 代理
+// fetch 真实校验：哪个镜像拉成功就从哪个下载（超时+大小校验）
+var MIRRORS = [
+  'https://cdn.jsdelivr.net/gh/ZhangYichen-max/gumi-box@main/',
+  'https://zhangyichen.asia/',
+  'https://fastly.jsdelivr.net/gh/ZhangYichen-max/gumi-box@main/',
+  'https://testingcf.jsdelivr.net/gh/ZhangYichen-max/gumi-box@main/',
+  'https://ghproxy.cn/https://raw.githubusercontent.com/ZhangYichen-max/gumi-box/main/'
+];
+function mirrorTxt(m){
+  if(m.indexOf('zhangyichen')>=0) return '源站';
+  if(m.indexOf('ghproxy')>=0) return '代理';
+  return 'CDN';
+}
+function fetchMirror(m, apk, onOk, onFail){
+  var ctrl = ('AbortController' in window) ? new AbortController() : null;
+  var timer = setTimeout(function(){ if(ctrl) ctrl.abort(); }, 25000);
+  fetch(m + apk, (ctrl ? {signal: ctrl.signal} : {}))
+    .then(function(r){ if(!r.ok) throw 0; return r.blob(); })
+    .then(function(b){
+      clearTimeout(timer);
+      if(b.size < 1024) throw 0;
+      var u = URL.createObjectURL(b);
+      var a = document.createElement('a');
+      a.href = u; a.download = apk;
+      document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(function(){ URL.revokeObjectURL(u); }, 8000);
+      onOk();
+    })
+    .catch(function(){ clearTimeout(timer); onFail(); });
+}
+document.querySelectorAll('a.dl[data-apk]').forEach(function(a){
+  a.addEventListener('click', function(e){
+    e.preventDefault();
+    var apk = a.getAttribute('data-apk');
+    var label = a.textContent;
+    if (a.classList.contains('busy')) return;
+    var i = 0;
+    a.classList.add('busy');
+    (function next(){
+      if (i >= MIRRORS.length){
+        a.textContent = '自动下载失败，请点下方备用直链';
+        setTimeout(function(){ a.textContent = label; a.classList.remove('busy'); }, 3500);
+        return;
+      }
+      var m = MIRRORS[i++];
+      a.textContent = '正在从' + mirrorTxt(m) + '下载…';
+      fetchMirror(m, apk, function(){
+        a.textContent = '已开始下载 ✓（' + mirrorTxt(m) + '）';
+        setTimeout(function(){ a.textContent = label; a.classList.remove('busy'); }, 3200);
+      }, next);
+    })();
+  });
+});
+</script>
 </body>
 </html>
