@@ -1,6 +1,6 @@
 {
-  "versionCode": 15,
-  "versionName": "1.4.0",
+  "versionCode": 16,
+  "versionName": "1.4.1",
   "apk": "GumiAuth.apk",
-  "changelog": "修复检查更新失败：新增镜像与重定向跟随、二轮重试；授权申请弹窗改为应用名+理由+时间展示。"
+  "changelog": "授权记录显示应用名与授权时间；有 App 仍在登录时禁止退出 GumiAuth，需先在各 App 内退出。"
 }
