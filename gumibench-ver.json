@@ -1,6 +1,6 @@
 {
-  "versionCode": 4,
-  "versionName": "1.2.0",
-  "apk": "GumiBenchmark-1.2.0.apk",
-  "changelog": "新增 GPU 测评：满负荷着色器渲染实测帧率。"
+  "versionCode": 5,
+  "versionName": "1.2.1",
+  "apk": "GumiBenchmark-1.2.1.apk",
+  "changelog": "跑分历史保留 50 条 + 娱乐向「击败全国 xx% 用户」。"
 }
