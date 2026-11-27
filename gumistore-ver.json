@@ -1,6 +1,6 @@
 {
-  "versionCode": 4,
-  "versionName": "1.0.3",
-  "apk": "GumiStore-1.0.3.apk",
-  "changelog": "商店目录新增 Gumi音乐。"
+  "versionCode": 5,
+  "versionName": "1.1.0",
+  "apk": "GumiStore-1.1.0.apk",
+  "changelog": "App 列表改为远程 catalog.json 动态拉取；登录时若未安装 GumiAuth 可直接下载安装。"
 }

@@ -1,6 +1,6 @@
 {
-  "versionCode": 3,
-  "versionName": "1.1.0",
-  "apk": "GumiMidi-1.1.0.apk",
-  "changelog": "新增 8 个工程文件分类：Midi / Vsq / Vsqx / Vpr / Ust / Ustx / Svp / S5p，支持浏览与查看文件详情。"
+  "versionCode": 4,
+  "versionName": "1.2.0",
+  "apk": "GumiMidi-1.2.0.apk",
+  "changelog": "改为 SAF 选择文件夹目录读取；登录时若未安装 GumiAuth 可直接下载安装。"
 }
