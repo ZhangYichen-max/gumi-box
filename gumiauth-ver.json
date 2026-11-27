@@ -1,6 +1,6 @@
 {
-  "versionCode": 14,
-  "versionName": "1.3.2",
+  "versionCode": 15,
+  "versionName": "1.4.0",
   "apk": "GumiAuth.apk",
-  "changelog": "注销申请需附带账号：账号与当前登录不符则拒绝退出；无登录记录却申请退出则提示状态异常并强制注销。"
+  "changelog": "修复检查更新失败：新增镜像与重定向跟随、二轮重试；授权申请弹窗改为应用名+理由+时间展示。"
 }
