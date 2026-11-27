@@ -1,6 +1,6 @@
 {
-  "versionCode": 10,
-  "versionName": "1.1.5",
-  "apk": "GumiStore-1.1.5.apk",
-  "changelog": "切回商店自动重查列表：装完新 App 回来即显示已安装。"
+  "versionCode": 11,
+  "versionName": "1.1.6",
+  "apk": "GumiStore-1.1.6.apk",
+  "changelog": "修复：Android 11+ 包可见性导致部分 App 显示未安装。"
 }
