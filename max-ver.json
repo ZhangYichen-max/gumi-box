@@ -1,6 +1,6 @@
 {
-  "versionCode": 14,
-  "versionName": "1.2.3",
-  "apk": "MetroPlayer-1.2.3.apk",
-  "changelog": "检查更新改为并行竞速，速度大幅提升。"
+  "versionCode": 15,
+  "versionName": "1.2.4",
+  "apk": "MetroPlayer-1.2.4.apk",
+  "changelog": "APK 下载改为并行探测最快镜像，下载速度大幅提升。"
 }
