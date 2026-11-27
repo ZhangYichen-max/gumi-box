@@ -1,0 +1,6 @@
+{
+  "versionCode": 1,
+  "versionName": "1.0.0",
+  "apk": "MetroPlayer-1.0.0.apk",
+  "changelog": "首个版本：本地音乐播放器，支持列表播放、暂停/上一首/下一首、自动更新。"
+}
