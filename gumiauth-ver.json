@@ -1,6 +1,6 @@
 {
-  "versionCode": 3,
-  "versionName": "1.1.1",
+  "versionCode": 4,
+  "versionName": "1.1.2",
   "apk": "GumiAuth.apk",
-  "changelog": "安全修复：移除包内凭据；失败计数改为本地存储，仓库 fails 字段作为管理员锁定开关。"
+  "changelog": "修复：App 重启后授权 MetroPlayer 提示缺少凭据；登录凭据改为持久保存（私有目录），退出登录时清除。"
 }
