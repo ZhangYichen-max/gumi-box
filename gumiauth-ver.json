@@ -1,6 +1,6 @@
 {
-  "versionCode": 8,
-  "versionName": "1.2.3",
+  "versionCode": 9,
+  "versionName": "1.2.4",
   "apk": "GumiAuth.apk",
-  "changelog": "退出登录不再同步注销 MetroPlayer，仅清除本应用登录状态。"
+  "changelog": "网络请求改为并行竞速：检查更新和登录验证速度大幅提升。"
 }

@@ -1,6 +1,6 @@
 {
-  "versionCode": 13,
-  "versionName": "1.2.2",
-  "apk": "MetroPlayer-1.2.2.apk",
-  "changelog": "支持 GumiAuth 退出登录时同步注销本地登录状态。"
+  "versionCode": 14,
+  "versionName": "1.2.3",
+  "apk": "MetroPlayer-1.2.3.apk",
+  "changelog": "检查更新改为并行竞速，速度大幅提升。"
 }
