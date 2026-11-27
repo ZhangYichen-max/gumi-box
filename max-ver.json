@@ -1,6 +1,6 @@
 {
-  "versionCode": 5,
-  "versionName": "1.0.4",
-  "apk": "MetroPlayer-1.0.4.apk",
-  "changelog": "UI 优化：检查更新移入 Settings；播放按钮改为英文文本。新增播放进度条、播放通知栏、预留账号登录入口。"
+  "versionCode": 6,
+  "versionName": "1.0.5",
+  "apk": "MetroPlayer-1.0.5.apk",
+  "changelog": "Settings 入口改为右上角固定「...」按钮。"
 }
