@@ -1,6 +1,6 @@
 {
-  "versionCode": 7,
-  "versionName": "1.1.0",
-  "apk": "MetroPlayer-1.1.0.apk",
-  "changelog": "新增歌词显示（自动加载同名 .lrc）、自定义音乐文件夹导入、歌单与播放列表管理；登录功能提示需安装 GumiAuth App。"
+  "versionCode": 8,
+  "versionName": "1.1.1",
+  "apk": "MetroPlayer-1.1.1.apk",
+  "changelog": "界面全面中文化：按钮、设置菜单、歌单管理均为中文。"
 }
