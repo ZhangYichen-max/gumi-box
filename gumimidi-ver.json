@@ -1,0 +1,6 @@
+{
+  "versionCode": 1,
+  "versionName": "1.0.0",
+  "apk": "GumiMidi-1.0.0.apk",
+  "changelog": "首个版本：GumiAuth 登录接口（申请授权、直接登录、退出登录、被解除授权同步退出）。"
+}
