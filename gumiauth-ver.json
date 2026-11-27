@@ -1,6 +1,6 @@
 {
-  "versionCode": 10,
-  "versionName": "1.2.5",
+  "versionCode": 11,
+  "versionName": "1.2.6",
   "apk": "GumiAuth.apk",
-  "changelog": "APK 下载改为并行探测最快镜像，下载速度大幅提升。"
+  "changelog": "新增可靠下载源（自有域名与 jsdelivr CDN），修复手机网络下无法获取用户信息的问题。"
 }

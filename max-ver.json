@@ -1,6 +1,6 @@
 {
-  "versionCode": 15,
-  "versionName": "1.2.4",
-  "apk": "MetroPlayer-1.2.4.apk",
-  "changelog": "APK 下载改为并行探测最快镜像，下载速度大幅提升。"
+  "versionCode": 16,
+  "versionName": "1.2.5",
+  "apk": "MetroPlayer-1.2.5.apk",
+  "changelog": "新增可靠下载源（自有域名与 jsdelivr CDN），检查更新与下载更稳更快。"
 }
