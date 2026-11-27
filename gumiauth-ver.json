@@ -1,6 +1,6 @@
 {
-  "versionCode": 7,
-  "versionName": "1.2.2",
+  "versionCode": 8,
+  "versionName": "1.2.3",
   "apk": "GumiAuth.apk",
-  "changelog": "退出登录需三次确认，并同步注销 MetroPlayer 登录状态。"
+  "changelog": "退出登录不再同步注销 MetroPlayer，仅清除本应用登录状态。"
 }
