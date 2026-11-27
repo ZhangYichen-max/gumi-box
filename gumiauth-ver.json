@@ -1,6 +1,6 @@
 {
-  "versionCode": 17,
-  "versionName": "1.4.2",
+  "versionCode": 18,
+  "versionName": "1.4.3",
   "apk": "GumiAuth.apk",
-  "changelog": "授权记录可点击：确认后向该 App 下发注销指令并删除记录，App 同步退出该账号。"
+  "changelog": "修复注销提示显示包名的问题：改用授权时记录的应用名，并申请包可见性以查询应用标签。"
 }
