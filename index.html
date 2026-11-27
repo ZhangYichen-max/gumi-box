@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MetroPlayer · 下载</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body {
+    min-height:100vh; display:flex; align-items:center; justify-content:center;
+    background:#0e0e12; color:#eaeaea;
+    font-family:"PingFang SC","Microsoft YaHei",-apple-system,sans-serif;
+    padding:24px;
+  }
+  .card {
+    background:#16161c; border:1px solid #2a2a33; border-radius:16px;
+    max-width:420px; width:100%; padding:40px 32px; text-align:center;
+    box-shadow:0 8px 40px rgba(0,0,0,.45);
+  }
+  .logo {
+    width:72px; height:72px; margin:0 auto 20px; border-radius:16px;
+    background:#000; display:flex; align-items:center; justify-content:center;
+    border:1px solid #2a2a33;
+  }
+  .logo svg { width:34px; height:34px; fill:#fff; margin-left:4px; }
+  h1 { font-size:24px; margin-bottom:6px; }
+  .ver { color:#8b8b96; font-size:13px; margin-bottom:28px; }
+  .btn {
+    display:block; background:#5b8cff; color:#fff; text-decoration:none;
+    padding:14px 0; border-radius:10px; font-size:16px; font-weight:600;
+    margin-bottom:12px; transition:background .15s;
+  }
+  .btn:hover { background:#4a7cf0; }
+  .btn.alt { background:#23232c; }
+  .btn.alt:hover { background:#2c2c38; }
+  .note { color:#8b8b96; font-size:12px; line-height:1.7; margin-top:20px; text-align:left; }
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="logo">
+    <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+  </div>
+  <h1>MetroPlayer</h1>
+  <div class="ver">当前版本 v1.1.1 · 本地音乐播放器</div>
+  <a class="btn" href="MetroPlayer-1.1.1.apk" download>下载最新版 APK</a>
+  <a class="btn alt" href="max-ver.json">查看版本信息</a>
+  <div class="note">
+    · 支持 mp3 / flac / wav / ogg / m4a / aac<br>
+    · 歌词显示（同名 .lrc 自动加载）<br>
+    · 自定义音乐文件夹、歌单管理<br>
+    · 应用内自动检查更新<br><br>
+    安装前请允许「安装未知应用」权限。最低支持 Android 4.4。
+  </div>
+</div>
+</body>
+</html>
