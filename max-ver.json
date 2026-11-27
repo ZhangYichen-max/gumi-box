@@ -1,6 +1,6 @@
 {
-  "versionCode": 3,
-  "versionName": "1.0.2",
-  "apk": "MetroPlayer-1.0.2.apk",
-  "changelog": "新增「检查更新」按钮；更新检查增加国内镜像回退，解决无法连接更新服务器的问题。"
+  "versionCode": 5,
+  "versionName": "1.0.4",
+  "apk": "MetroPlayer-1.0.4.apk",
+  "changelog": "UI 优化：检查更新移入 Settings；播放按钮改为英文文本。新增播放进度条、播放通知栏、预留账号登录入口。"
 }
