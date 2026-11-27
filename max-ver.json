@@ -1,6 +1,6 @@
 {
-  "versionCode": 8,
-  "versionName": "1.1.1",
-  "apk": "MetroPlayer-1.1.1.apk",
-  "changelog": "界面全面中文化：按钮、设置菜单、歌单管理均为中文。"
+  "versionCode": 9,
+  "versionName": "1.1.2",
+  "apk": "MetroPlayer-1.1.2.apk",
+  "changelog": "登录功能：未安装 GumiAuth 时可直接下载安装，已安装则一键打开。"
 }
