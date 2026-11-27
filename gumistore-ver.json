@@ -1,6 +1,6 @@
 {
-  "versionCode": 9,
-  "versionName": "1.1.4",
-  "apk": "GumiStore-1.1.4.apk",
-  "changelog": "各 App 版本信息改为源站优先，杜绝 CDN 旧缓存。"
+  "versionCode": 10,
+  "versionName": "1.1.5",
+  "apk": "GumiStore-1.1.5.apk",
+  "changelog": "切回商店自动重查列表：装完新 App 回来即显示已安装。"
 }
