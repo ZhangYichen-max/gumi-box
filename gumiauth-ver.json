@@ -1,6 +1,6 @@
 {
-  "versionCode": 16,
-  "versionName": "1.4.1",
+  "versionCode": 17,
+  "versionName": "1.4.2",
   "apk": "GumiAuth.apk",
-  "changelog": "授权记录显示应用名与授权时间；有 App 仍在登录时禁止退出 GumiAuth，需先在各 App 内退出。"
+  "changelog": "授权记录可点击：确认后向该 App 下发注销指令并删除记录，App 同步退出该账号。"
 }
