@@ -1,6 +1,6 @@
 {
-  "versionCode": 8,
-  "versionName": "1.1.3",
-  "apk": "GumiStore-1.1.3.apk",
-  "changelog": "商店先自检：自身未更新前不显示应用列表，须先更新商店本体。"
+  "versionCode": 9,
+  "versionName": "1.1.4",
+  "apk": "GumiStore-1.1.4.apk",
+  "changelog": "各 App 版本信息改为源站优先，杜绝 CDN 旧缓存。"
 }

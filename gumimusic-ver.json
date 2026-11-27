@@ -1,6 +1,6 @@
 {
-  "versionCode": 3,
-  "versionName": "1.0.2",
-  "apk": "GumiMusic-1.0.2.apk",
-  "changelog": "新增检查更新与启动自动检查更新。"
+  "versionCode": 4,
+  "versionName": "1.0.3",
+  "apk": "GumiMusic-1.0.3.apk",
+  "changelog": "更新检查改为源站优先，杜绝 CDN 旧缓存。"
 }
