@@ -1,6 +1,6 @@
 {
-  "versionCode": 5,
-  "versionName": "1.1.0",
-  "apk": "GumiStore-1.1.0.apk",
-  "changelog": "App 列表改为远程 catalog.json 动态拉取；登录时若未安装 GumiAuth 可直接下载安装。"
+  "versionCode": 6,
+  "versionName": "1.1.1",
+  "apk": "GumiStore-1.1.1.apk",
+  "changelog": "目录移除 Gumi Midi。"
 }

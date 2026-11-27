@@ -12,11 +12,6 @@
       "verJson": "max-ver.json"
     },
     {
-      "name": "Gumi Midi",
-      "pkg": "midis.gumi.megpoid.zhangyichen.supervisor.plus.this.package.name.is.totally.long",
-      "verJson": "gumimidi-ver.json"
-    },
-    {
       "name": "Gumi音乐",
       "pkg": "cloudmusic.megpoid.gumi.zhangyichen.supervisor.plus.pro.ultra.max.air.flip.advanced.hahaha.woaigumi.vocaloid.synthesizerv.utau.cevio.xstudio",
       "verJson": "gumimusic-ver.json"

@@ -1,6 +1,0 @@
-{
-  "versionCode": 4,
-  "versionName": "1.2.0",
-  "apk": "GumiMidi-1.2.0.apk",
-  "changelog": "改为 SAF 选择文件夹目录读取；登录时若未安装 GumiAuth 可直接下载安装。"
-}
