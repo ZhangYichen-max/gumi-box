@@ -1,6 +1,6 @@
 {
-  "versionCode": 5,
-  "versionName": "1.2.0",
+  "versionCode": 6,
+  "versionName": "1.2.1",
   "apk": "GumiAuth.apk",
-  "changelog": "移除授权按钮：改为 MetroPlayer 主动发起登录申请，GumiAuth 弹窗确认后回传凭据。"
+  "changelog": "修复锁定不生效：用户名不存在也计入失败次数；锁定后不再发起网络请求。锁定提示不再显示解锁方法。"
 }
