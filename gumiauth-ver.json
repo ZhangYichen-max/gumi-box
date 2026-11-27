@@ -1,6 +1,6 @@
 {
-  "versionCode": 2,
-  "versionName": "1.1.0",
+  "versionCode": 3,
+  "versionName": "1.1.1",
   "apk": "GumiAuth.apk",
-  "changelog": "新增自动检查更新与手动检查更新；登录失败警告；密码错误5次锁定账户（仓库usrinfo.json计数器）。"
+  "changelog": "安全修复：移除包内凭据；失败计数改为本地存储，仓库 fails 字段作为管理员锁定开关。"
 }
