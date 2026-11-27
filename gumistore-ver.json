@@ -1,0 +1,6 @@
+{
+  "versionCode": 1,
+  "versionName": "1.0.0",
+  "apk": "GumiStore-1.0.0.apk",
+  "changelog": "首个版本：应用商店，可下载所有自家 App 并检查更新（需登录 GumiAuth 账号）。"
+}
