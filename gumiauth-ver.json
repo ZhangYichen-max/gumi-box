@@ -1,6 +1,6 @@
 {
-  "versionCode": 6,
-  "versionName": "1.2.1",
+  "versionCode": 7,
+  "versionName": "1.2.2",
   "apk": "GumiAuth.apk",
-  "changelog": "修复锁定不生效：用户名不存在也计入失败次数；锁定后不再发起网络请求。锁定提示不再显示解锁方法。"
+  "changelog": "退出登录需三次确认，并同步注销 MetroPlayer 登录状态。"
 }

@@ -1,6 +1,6 @@
 {
-  "versionCode": 12,
-  "versionName": "1.2.1",
-  "apk": "MetroPlayer-1.2.1.apk",
-  "changelog": "登录流程改为向 GumiAuth 发起申请，GumiAuth 确认后回传授权。"
+  "versionCode": 13,
+  "versionName": "1.2.2",
+  "apk": "MetroPlayer-1.2.2.apk",
+  "changelog": "支持 GumiAuth 退出登录时同步注销本地登录状态。"
 }
