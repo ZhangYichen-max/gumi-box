@@ -1,6 +1,6 @@
 {
-  "versionCode": 6,
-  "versionName": "1.1.1",
-  "apk": "GumiStore-1.1.1.apk",
-  "changelog": "目录移除 Gumi Midi。"
+  "versionCode": 7,
+  "versionName": "1.1.2",
+  "apk": "GumiStore-1.1.2.apk",
+  "changelog": "目录拉取改为优先自有域（源站），避免 CDN 缓存滞后导致目录过期。"
 }
