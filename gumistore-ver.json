@@ -1,6 +1,6 @@
 {
-  "versionCode": 7,
-  "versionName": "1.1.2",
-  "apk": "GumiStore-1.1.2.apk",
-  "changelog": "目录拉取改为优先自有域（源站），避免 CDN 缓存滞后导致目录过期。"
+  "versionCode": 8,
+  "versionName": "1.1.3",
+  "apk": "GumiStore-1.1.3.apk",
+  "changelog": "商店先自检：自身未更新前不显示应用列表，须先更新商店本体。"
 }
