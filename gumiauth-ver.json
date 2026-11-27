@@ -1,6 +1,6 @@
 {
-  "versionCode": 19,
-  "versionName": "1.4.4",
+  "versionCode": 20,
+  "versionName": "1.4.5",
   "apk": "GumiAuth.apk",
-  "changelog": "解除授权时若 App 无法接收注销指令（未安装/版本过旧），拒绝退出并保留授权记录，避免状态异常。"
+  "changelog": "修复点击授权记录无法退出 Gumi Store / Gumi Midi（注销指令改发各自专属 action）；全新图标。"
 }
