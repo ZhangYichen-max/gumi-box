@@ -1,6 +1,6 @@
 {
-  "versionCode": 11,
-  "versionName": "1.2.0",
-  "apk": "MetroPlayer-1.2.0.apk",
-  "changelog": "支持 GumiAuth 授权登录：GumiAuth 中点「授权MetroPlayer」即可把账号传给本应用。"
+  "versionCode": 12,
+  "versionName": "1.2.1",
+  "apk": "MetroPlayer-1.2.1.apk",
+  "changelog": "登录流程改为向 GumiAuth 发起申请，GumiAuth 确认后回传授权。"
 }

@@ -1,6 +1,6 @@
 {
-  "versionCode": 4,
-  "versionName": "1.1.2",
+  "versionCode": 5,
+  "versionName": "1.2.0",
   "apk": "GumiAuth.apk",
-  "changelog": "修复：App 重启后授权 MetroPlayer 提示缺少凭据；登录凭据改为持久保存（私有目录），退出登录时清除。"
+  "changelog": "移除授权按钮：改为 MetroPlayer 主动发起登录申请，GumiAuth 弹窗确认后回传凭据。"
 }
