@@ -1,6 +1,6 @@
 {
-  "versionCode": 18,
-  "versionName": "1.2.7",
-  "apk": "MetroPlayer-1.2.7.apk",
-  "changelog": "取消授权时向 GumiAuth 发注销申请，GumiAuth 同步清除授权记录。"
+  "versionCode": 19,
+  "versionName": "1.2.8",
+  "apk": "MetroPlayer-1.2.8.apk",
+  "changelog": "取消授权时向 GumiAuth 附带账号发注销申请，由 GumiAuth 校验后清除授权记录。"
 }
