@@ -1,6 +1,6 @@
 {
-  "versionCode": 16,
-  "versionName": "1.2.5",
-  "apk": "MetroPlayer-1.2.5.apk",
-  "changelog": "新增可靠下载源（自有域名与 jsdelivr CDN），检查更新与下载更稳更快。"
+  "versionCode": 17,
+  "versionName": "1.2.6",
+  "apk": "MetroPlayer-1.2.6.apk",
+  "changelog": "登录申请升级为通用授权协议（声明回调），任意 App 均可接入 GumiAuth。"
 }
