@@ -1,6 +1,6 @@
 {
-  "versionCode": 5,
-  "versionName": "1.0.4",
-  "apk": "GumiMusic-1.0.4.apk",
-  "changelog": "更新默认跳转 Gumi Store（带进度条）；无 Store 时自行下载新增进度条。"
+  "versionCode": 6,
+  "versionName": "1.1.0",
+  "apk": "GumiMusic-1.1.0.apk",
+  "changelog": "本地音乐功能上线：扫描音乐库、点歌播放、进度条拖动、自动连播。"
 }
