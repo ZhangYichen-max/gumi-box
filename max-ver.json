@@ -1,6 +1,6 @@
 {
-  "versionCode": 24,
-  "versionName": "1.3.4",
-  "apk": "MetroPlayer-1.3.4.apk",
-  "changelog": "更新默认跳转 Gumi Store（带进度条）；无 Store 时自行下载新增进度条。"
+  "versionCode": 25,
+  "versionName": "1.3.5",
+  "apk": "MetroPlayer-1.3.5.apk",
+  "changelog": "支持接收 Gumi音乐 传送的音乐与歌单（需登录同一 GumiAuth 账号）。"
 }
