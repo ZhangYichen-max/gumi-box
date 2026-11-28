@@ -1,6 +1,6 @@
 {
-  "versionCode": 26,
-  "versionName": "1.3.6",
-  "apk": "MetroPlayer-1.3.6.apk",
-  "changelog": "歌单详情新增「传到 Gumi音乐」（需双方登录同一 GumiAuth 账号）。"
+  "versionCode": 27,
+  "versionName": "1.3.7",
+  "apk": "MetroPlayer-1.3.7.apk",
+  "changelog": "长按歌曲新增「传到 Gumi音乐（单曲）」（需同账号）。"
 }
