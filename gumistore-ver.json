@@ -1,6 +1,6 @@
 {
-  "versionCode": 12,
-  "versionName": "1.1.7",
-  "apk": "GumiStore-1.1.7.apk",
-  "changelog": "支持其他 App 更新请求跳转定位：进入商店自动更新对应 App。"
+  "versionCode": 13,
+  "versionName": "1.1.8",
+  "apk": "GumiStore-1.1.8.apk",
+  "changelog": "修复更新链路：跳转更新绕过防抖；商店自身过期时自动开始下载更新包。"
 }
