@@ -1,6 +1,6 @@
 {
-  "versionCode": 7,
-  "versionName": "1.1.1",
-  "apk": "GumiMusic-1.1.1.apk",
-  "changelog": "新增「传送到 MetroPlayer」：单曲/整个音乐库一键传过去（需同账号）。"
+  "versionCode": 8,
+  "versionName": "1.2.0",
+  "apk": "GumiMusic-1.2.0.apk",
+  "changelog": "定位云端预备：移除本地扫描与播放器；接收 MetroPlayer 传来的歌单。"
 }
